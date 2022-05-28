@@ -1,8 +1,7 @@
-const nombre = prompt("Ingresa tu nombre");
-const edad = parseInt(prompt("Ingrese tu edad"));
+//Pedir que ingrese 5 productos medinate prompt y mostrarlo por consola
 
-if((nombre == "Delfina" || nombre == "delfina") && edad >= 18) {
-    let saludo = alert("Hola " + nombre + "usted puede ingresar")
-} else {
-    console.log("No tiene permitido ingresar")
+for(i=1; i<=5; i++){
+    let productos = prompt("Ingrese los productos");
+    alert("Productos " + i + " " + productos)
+    console.log("Los productos son " + productos)
 }
